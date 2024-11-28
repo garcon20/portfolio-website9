@@ -1,0 +1,251 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #080808;
+    line-height: 1.6;
+}
+
+header {
+    width: 100%;
+    background: linear-gradient(120deg, #0078d4, #005bb5);
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo { color: #000;
+    font-size: 1.5em;
+    font-weight:bold;
+    box-shadow: #000;
+    text-decoration:none;
+}
+
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    transition: background 0.3s;
+}
+
+.nav-links a:hover, .nav-links a.active {
+    background: rgb(243, 240, 240);
+    border-radius: 5px;
+    color: #0f0101;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.hero-text {
+    max-width: 50%;
+    cursor:pointer;
+}
+
+.hero h3 { color:#ffffff;
+    text-align:flex;
+    text-decoration:solid;
+    margin-bottom: 80px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor:pointer;
+    
+} 
+
+.hero h4{
+    text-align:flex;
+    text-decoration:solid;
+    margin-bottom: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    cursor:pointer;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;cursor:pointer;
+}
+
+.cta-button {
+    background: #e9e4e3;
+    color: #080808;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.cta-button:hover {
+    background: #0e0d0d;
+    color: #ccc;
+}
+
+.hero-image img {
+
+    max-width: 900px;
+    
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+
+    
+}
+
+/* Main Sections */
+.intro {
+    text-align: center;
+    padding: 40px;
+    background: #64303046;
+}
+
+.intro h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.secondary-button {
+    background: #0078d4;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.secondary-button:hover {
+    background: #0e0f11;
+}
+header {
+    background: #333;
+    color: white;
+    padding: 1.5em 0;
+    text-align: center;
+}
+.container {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 0 1em;
+    text-align: center;
+}
+.message {
+    padding: 2em;
+    background: rgb(243, 220, 220);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.message h2 {
+    margin-bottom: 1em;
+    color: #0f0101;
+}
+.message p {
+    color: #270101;
+}
+.message a {
+    display: inline-block;
+    margin-top: 1em;
+    padding: 0.5em 1.5em;
+    background: #010a14;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.message a:hover {
+    background: #f8f9fa;
+    color: #000;
+}
+footer {
+    text-align: center;
+    padding: 1em;
+    background: #333;
+    color: white;
+    margin-top: 2em;
+}
+
+.link-button {
+    background: #580de2;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background 0.3s;
+
+}
+
+.link-button:hover {
+    background: #005bb5;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+    margin-top: 20px;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background:transparent;
+}
+
+form label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background: #2003f8;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+form button:hover {
+    background: #eef1f3;
+    color: #2003f8;
+}
+
+form header {
+    width: 100%;
+    background: linear-gradient(120deg, #0078d4, #005bb5);
+    color: #ffffff;
+}
